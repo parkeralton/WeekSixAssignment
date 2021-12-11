@@ -38,7 +38,7 @@ public class Player {
 		this.name = name;
 	}
 
-	public Card flip() {//flips card for gameplay, removes from lsit
+	public Card flip() {//flips card for gameplay, removes from list
 		return hand.remove(0);
 		
 	}
